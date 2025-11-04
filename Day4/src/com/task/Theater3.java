@@ -98,4 +98,23 @@ public class Theater3 implements MalayalamMovies , TamilMovies{
 		
 	}
 
+	public void display() {
+		System.out.println("......Movies for today......");
+		System.out.println("Malayalam");
+		System.out.println("1. Manjumel Boys - Ticket : 120");
+		System.out.println("2. MangalVaram - Ticket : 100");
+		System.out.println("3. Lokah chaper 1 - Ticket : 120");
+		System.out.println("4. Cold Case - Ticket : 100");
+		System.out.println("5. Brammayuagam - Ticket : 150");
+		System.out.println(".................................");
+		System.out.println("......Movies for today......");
+		System.out.println("Tamil");
+		System.out.println("1. Varalaru - Ticket : 150");
+		System.out.println("2. Citizen - Ticket : 150");
+		System.out.println("3. Thoza - Ticket : 120");
+		System.out.println("4. Aayirathil Oruvan - Ticket : 100");
+		System.out.println("5. Theeran Adhigaram Ondru - Ticket : 150");
+		
+	}
+
 }

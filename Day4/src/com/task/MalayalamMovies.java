@@ -7,4 +7,5 @@ public interface MalayalamMovies {
 	public void lokahChaper1(int x);
 	public void coldCase(int x);
 	public void brammayugam(int x);
+//	public void display();
 }

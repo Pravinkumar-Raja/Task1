@@ -47,4 +47,14 @@ public class Theater2 implements TamilMovies{
 		System.out.println("............................");
 	}
 
+	public void display() {
+		System.out.println("......Movies for today......");
+		System.out.println("1. Varalaru - Ticket : 150");
+		System.out.println("2. Citizen - Ticket : 150");
+		System.out.println("3. Thoza - Ticket : 120");
+		System.out.println("4. Aayirathil Oruvan - Ticket : 100");
+		System.out.println("5. Theeran Adhigaram Ondru - Ticket : 150");
+		
+	}
+
 }

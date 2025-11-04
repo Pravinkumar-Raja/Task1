@@ -7,4 +7,5 @@ public interface TamilMovies {
 	public void thoza(int x);
 	public void aayirathilOruvan(int x);
 	public void theeranAdhigaramOndru(int x);
+//	public void display();
 }

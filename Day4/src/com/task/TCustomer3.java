@@ -4,28 +4,11 @@ import java.util.Scanner;
 
 public class TCustomer3 extends Theater3{
 	
-	void display()
-	{
-		System.out.println("......Movies for today......");
-		System.out.println("........Malayalam.........");
-		System.out.println("1. Manjumel Boys - Ticket : 120");
-		System.out.println("2. MangalVaram - Ticket : 100");
-		System.out.println("3. Lokah chaper 1 - Ticket : 120");
-		System.out.println("4. Cold Case - Ticket : 100");
-		System.out.println("5. Brammayuagam - Ticket : 150");
-		System.out.println(".................................");
-		System.out.println("......Movies for today......");
-		System.out.println("........Tamil..........");
-		System.out.println("1. Varalaru - Ticket : 150");
-		System.out.println("2. Citizen - Ticket : 150");
-		System.out.println("3. Thoza - Ticket : 120");
-		System.out.println("4. Aayirathil Oruvan - Ticket : 100");
-		System.out.println("5. Theeran Adhigaram Ondru - Ticket : 150");
-	}
+
 
 	public static void main(String[] args) {
 		
-		TCustomer3 t1=new TCustomer3();
+		Theater3 t1=new TCustomer3();
 		Scanner s=new Scanner(System.in);
 		int ch,total,n;
 		String lang="";
@@ -135,7 +118,7 @@ public class TCustomer3 extends Theater3{
 			
 			}
 			
-		}while(ch!=4);
+		}while(ch!=3);
 	
 	}
 

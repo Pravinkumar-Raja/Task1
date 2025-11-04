@@ -5,20 +5,10 @@ import java.util.Scanner;
 public class TCustomer1 extends Theater1{
 	
 	
-	void display()
-	{
-		System.out.println("......Movies for today......");
-		System.out.println("1. Manjumel Boys - Ticket : 120");
-		System.out.println("2. MangalVaram - Ticket : 100");
-		System.out.println("3. Lokah chaper 1 - Ticket : 120");
-		System.out.println("4. Cold Case - Ticket : 100");
-		System.out.println("5. Brammayuagam - Ticket : 150");
-	}
-	
 	
 	public static void main(String[] args) {
 		
-		TCustomer1 t1=new TCustomer1();
+		Theater1 t1=new TCustomer1();
 		Scanner s=new Scanner(System.in);
 		int ch,n,total;
 		do {
@@ -81,7 +71,7 @@ public class TCustomer1 extends Theater1{
 			
 			}
 			
-		}while(ch!=4);
+		}while(ch!=3);
 	
 	}
 
