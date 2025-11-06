@@ -1,7 +1,11 @@
 package com.example;
 
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Set;
 import java.util.TreeMap;
 
 public class MapDemo {
@@ -34,6 +38,37 @@ public class MapDemo {
 		
 		System.out.println(t);
 		System.out.println(t.containsKey(3));
+		
+		HashMap<Integer, String> hmg=new HashMap<Integer,String>();
+		hmg.put(3, "Mango");
+		hmg.put(5, "Grape");
+		hmg.put(4, "Apple");
+		hmg.put(3, "Orange");
+		hmg.put(2, "Apple");
+		hmg.put(1, "Banana");
+		Set<Integer> s=hmg.keySet();
+		for(int x:s)
+		{
+			System.out.println(x);
+		}
+		Iterator itr=s.iterator();
+		while(itr.hasNext())
+		{
+			System.out.println(itr.next());
+		}
+		
+		s.forEach(x->{System.out.println(x);});
+		
+//		Collection c=hmg.values();
+//		for(String str:c)
+//		{
+//			System.out.println(str);
+//		}
+		
+		for(Map.Entry<Integer,String> m:hmg.entrySet())
+		{
+			System.out.println(m.getKey()+" "+m.getValue());
+		}
 	}
 
 }
