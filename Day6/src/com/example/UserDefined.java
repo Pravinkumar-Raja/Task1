@@ -13,8 +13,24 @@ public class UserDefined {
 		}
 		else
 		{
+//			try {
+//				throw new InvalidAgeException(age);
+//			}
+//			catch (InvalidAgeException e)
+//			{
+//				e.printStackTrace();
+//			}
+			
+//			try {
+//				throw new InvalidAgeException(age);
+//			}
+//			catch (Exception e)
+//			{
+//				e.printStackTrace();
+//			}
+			
 			try {
-				throw new InvalidAgeException(age);
+				throw new Exception("Invalid Age"+age);
 			}
 			catch (Exception e)
 			{
