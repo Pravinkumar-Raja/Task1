@@ -3,11 +3,13 @@ package com.example;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Scanner;
 
 public class DateDemo {
 	public static void main(String[] args) throws ParseException {
 		Date d=new Date();
-		String str="22/05/2025";
+		Scanner sc=new Scanner(System.in);
+		String str=sc.next();
 		System.out.println(d);
 		SimpleDateFormat sdf=new SimpleDateFormat("dd/MM/yyyy");
 		String s=sdf.format(d);
