@@ -6,9 +6,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junit-4.11.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/hamcrest-2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/mockito-core-3.5.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/mockito-junit-jupiter-3.5.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
